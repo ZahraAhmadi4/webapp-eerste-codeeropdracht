@@ -1,0 +1,216 @@
+body {
+	font-family: avenir, georgia;
+	background-image: url(../assets/images/straat.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Dit is de header die op elke pagina te zien is*/
+
+h1 {
+	text-align: center;
+	font-size: 20px;
+	padding: 1em;
+	color: white;
+
+}
+
+/* Dit is de navigatie (De home en about us knoppen) die op elke pagina te zien is*/
+
+nav {
+	display: flex;
+	flex-direction: row;
+	margin-top: 2em;
+	margin-left: 1px;
+
+
+}
+
+a.nav {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	padding: 5px;
+	width: 12em;
+	margin: 2px;
+	
+}
+
+/* Dit is de section op de homepagina*/
+
+section.choose{
+	background-color: black;
+	margin: 1em;
+	margin-top: 2em;
+	padding: 50px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+/* Dit is de tweede header die op de homepagina gebruikt wordt*/
+
+h2.home{
+	text-align: center;
+	margin-top: 2px;
+	font-style: bold; 
+	font-size: 18px;
+	color: white;
+}
+
+/* Dit is de linkjes waar er een keuze gemaakt kan worden uit NLse en Internationale feestdagen*/
+
+a.country {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align: center;
+	font-size: 10px;
+	margin: 1em;
+	padding: 1em;
+	background: white;
+	border-radius: 2em;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+
+/* Dit is het stukje tekst onderaan de homepagina*/
+
+article.intro{
+	margin: 1em;
+}
+
+/* Dit is de header die op de meeste pagina's te zien zijn, onder andere bij; de about us pagina, de feestdagen pagina en de activiteiten pagina's.*/
+
+
+h2 {
+	text-align: center;
+	margin-top: 2px;
+	font-style: bold; 
+	font-size: 18px;
+	color: black;
+
+}
+
+/* Dit is de header op de tweede pagina waar de keuze gemaakt moet worden*/
+
+h2.looking {
+	text-align: center;
+	margin-top: 2em;
+	
+}
+
+/* Dit is de lijst die ik heb gebruikt voor de tweede pagina waar er een keuze gemaakt moet worden uit de vier seizoenen*/
+
+ul.looking li {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none; 
+	border: 2px solid black; 
+	background-color: white;
+	margin: 3em;
+	padding: 10px;
+	border-radius: 1em;
+	width: 45%;
+	text-align: center;
+
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	margin-left: 2em;
+}
+
+
+/* Dit is de section op de twee keuze maken pagina's uit de vier seizoenen*/
+
+section.looking {
+	border: 2px solid black;
+	background-color: grey;
+	padding: 1px;
+	margin: 1em;
+}
+
+/* Dit zijn de headers die op alle feestdagen en activiteiten pagina's gebruikt worden*/
+
+h2.holiday, h3.holiday {
+	text-align: center;
+	margin-top: 3em;
+	margin-left: 1em;
+	border-style: solid;
+	border-color: white white black white;
+	width: 90%;
+
+}
+
+/* Dit zijn de alineas die op alle feestdagen pagina's gebruikt worden*/
+p.act, p.act2 {
+	text-align: left;
+	margin: 1em;
+}
+
+/* Dit is voor de linkjes die de gebruiker naar de gekozen activiteiten voor de desbetreffende feestdag doorverwijst*/
+
+a.click {
+	margin: 1em;
+	color: red;
+	border-style: solid;
+	border-color: white white red white;
+}
+
+/* De section op de activiteiten pagina's*/
+
+section.activity {
+	margin: 1em;
+}
+
+/* De foto's die bij de activiteiten pagina's*/
+img.activity {
+	width: 100%;
+}
+
+/* De header op de activiteiten pagina's waar de naam van de activiteiten in beschreven zijn*/
+
+h3.parade {
+	background-color: red;
+	width: 100%;
+	color: white;
+}
+
+/* De link op de pagina van de feestdag Koningsdag*/
+
+a#urban{
+	color: red;
+	border-style: solid;
+	border-color: white white red white;
+}
+
+/* De section op de about us pagina*/
+
+section.about{
+	margin: 1em;
+}
+
+/* Dit is de footer die op alle pagina's te zien is*/
+
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-top: 10em;
+	width: 100%;
+	height: 100%;
+	
+}
